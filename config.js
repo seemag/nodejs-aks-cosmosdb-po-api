@@ -1,8 +1,8 @@
 let config = {}
 
 // Configure the host and authkey before deploying this app!!
-config.host = process.env.HOST || "https://nodeakscosmosdb.documents.azure.com:443/";
-config.authKey = process.env.AUTH_KEY || "rE2NlwUHxiXSvYahegMjPxsMnk5lSvy573sci4c5sws77T3pgVifjo7mZjXr6rgtUqTOJCLvirqeHaSOtbyrRg==";
+config.host = process.env.HOST || "https://amdocscosmosdb.documents.azure.com:443/";
+config.authKey = process.env.AUTH_KEY || "9OUSoYHk2KNS4L5er1BPUlm41jZAZuwVqn2lMHEaT8lNAv4SBbNBcNSDSw8DxP8JZFWLSuajD67mH90JzF1akQ==";
 config.databaseId = "OrderDB";
 config.collectionId = "PurchaseOrders";
 	
